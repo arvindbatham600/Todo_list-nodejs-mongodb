@@ -18,7 +18,7 @@
 
 <br />
 
-![](/Images/middle.png)
+![](/Images/middle.png)-
 
 **_Then finally that perticullar task will be deleted bcz you have completed that task._**
 
