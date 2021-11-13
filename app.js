@@ -88,8 +88,11 @@ app.get("/about",(req,res) =>{
 })
 
 
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3300;
+}
 
-
-app.listen(3300, function(){
- 	console.log("the server has started at port 3300");
+app.listen(port, function(){
+ 	console.log("The server has started Successfully");
 });
